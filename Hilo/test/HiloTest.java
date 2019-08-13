@@ -43,7 +43,7 @@ public class HiloTest {
     @Test(expected = ArithmeticException.class)
     public void divtest(){
         System.out.println(Hilo.div(3,0));
-        Hilos.div(3,0);
+        //Hilos.div(3,0);
         
     }
 }
